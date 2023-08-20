@@ -3,3 +3,7 @@
 [user]
 	name = dbvc
 	email = dbvcbetter@gmail.com
+[includeIf "gitdir:~/work/"]
+	path = ~/work/.gitconfig_work
+[includeIf "gitdir:~/personal/"]
+	path = ~/personal/.gitconfig_personal
