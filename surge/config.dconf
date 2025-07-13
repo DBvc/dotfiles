@@ -1,0 +1,14 @@
+###############################################################################
+# 你的自定义主配置 —— 只“借”节点，其余全自定义
+###############################################################################
+[General]
+#!include BosLife.conf
+
+[Proxy]
+#!include BosLife.conf
+
+[Proxy Group]
+#!include BosLife.conf, custom.dconf
+
+[Rule]
+#!include custom.dconf, BosLife.conf
